@@ -14,5 +14,6 @@ int main(){
         mx = max(mx,s);
     }
     cout<<mx<<endl;
+    return 0;
     
 }
