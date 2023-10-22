@@ -9,7 +9,7 @@ int main(){
     int k;cin>>k;
     int i = 0,j=0;
     int sum = 0;
-    while(j<n){
+    while(j< = n){
         if(j<k){
             sum+=arr[j];
             j++;
