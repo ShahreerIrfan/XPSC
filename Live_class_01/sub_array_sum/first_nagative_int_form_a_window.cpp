@@ -19,7 +19,6 @@ int main()
         {
             j++;
         }
-
         else
         {
             if (q.empty())
