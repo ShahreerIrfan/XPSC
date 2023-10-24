@@ -11,6 +11,7 @@ int main(){
     for(char c : ptr){
         fr1[c-'a']++; //Holding parrern
     }
+    int ans = 0;
     while(j<txt.size()){
         fr2[txt[j]-'a']++;
         if(j<k-1){
@@ -24,12 +25,16 @@ int main(){
                     break;;
                 }
             }
+            if(flag){
+                ans++;
+            }
+            fr2[txt[i]-'a']--;
             i++;
             j++;
         }
     }
 
-
+    cout<<ans<<endl;
 
     return 0;
 }
