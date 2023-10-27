@@ -11,5 +11,6 @@ int main(){
     for(int i =0;i<26;i++){
         cout<<fr1[i]<<" ";
     }
+    
     return 0;
 }
