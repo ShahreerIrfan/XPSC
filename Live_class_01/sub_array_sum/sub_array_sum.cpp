@@ -16,4 +16,4 @@ int main(){
     cout<<mx<<endl;
     return 0;
 }
-// Totally easy proble
+// Totally easy problem
